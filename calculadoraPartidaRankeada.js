@@ -1,6 +1,6 @@
 function amountWinsLosses(playerWins, playerLosses) {
-    
-    let playerBalance = playerWins - playerLosses;
+
+    let playerBalance = playerWins * playerLosses * 100;
     let playerLevel = "";
 
     if (playerWins < 10) {
@@ -37,4 +37,4 @@ function amountWinsLosses(playerWins, playerLosses) {
 
 }
 
-amountWinsLosses(55, 3);
+amountWinsLosses(15, 20);
